@@ -21,7 +21,6 @@ This is a simple User Management application built with ASP.NET Core MVC. It all
    ```bash
    git clone https://github.com/frfarhath/Nursery-Management.git
 
-````
 
 2. **Update database connection string** in `appsettings.json` to match your SQL Server setup:
 
@@ -29,7 +28,7 @@ This is a simple User Management application built with ASP.NET Core MVC. It all
    "ConnectionStrings": {
      "DefaultConnection": "Server=localhost\\MSSQLSERVER01;Database=master;Trusted_Connection=True;TrustServerCertificate=True;"
    }
-   ```
+
 
 3. **Run the database SQL script** to create and seed the `Users` table:
 
@@ -38,24 +37,24 @@ This is a simple User Management application built with ASP.NET Core MVC. It all
 
      ```
      sql/master.sql
-     ```
+
 
 4. **Run the application**:
 
    ```bash
    dotnet build
    dotnet run
-   ```
+
 
 5. Open your browser and navigate to:
 
    ```
    https://localhost:5001/
-   ```
+
 
 ## 🗂️ Project Structure
 
-```
+
 UserManagementApp/
 ├── Controllers/
 ├── Models/
@@ -65,7 +64,7 @@ UserManagementApp/
 ├── wwwroot/
 ├── appsettings.json
 └── README.md
-```
+
 
 ## 📝 Notes
 

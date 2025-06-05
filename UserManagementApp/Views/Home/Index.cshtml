@@ -2,6 +2,15 @@
 
 <h2 style="color: #071952; margin-bottom: 20px;">Users List</h2>
 
+@if (TempData["SuccessMessage"] != null)
+{
+    <div id="successAlert" class="alert alert-success alert-dismissible fade show" role="alert"
+        style="max-width: 600px; margin-bottom: 20px; border-radius: 8px;">
+        <i class="bi bi-check-circle-fill me-2"></i> @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" aria-label="Close" onclick="dismissAlert()"></button>
+    </div>
+}
+
 <a asp-action="Create" class="btn btn-success mb-3 create-btn">
     <i class="bi bi-person-plus me-1"></i> Add New User
 </a>
@@ -80,4 +89,39 @@
         background-color: #a71d2a;
         border-color: #a71d2a;
     }
+
+    .alert-success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+        padding: 12px 20px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 128, 0, 0.15);
+    }
+
+    .alert-success i {
+        font-size: 1.2em;
+    }
 </style>
+
+@section Scripts {
+    <script>
+        // Function to dismiss the alert manually when close button clicked
+        function dismissAlert() {
+            const alert = document.getElementById('successAlert');
+            if (alert) {
+                alert.style.display = 'none';
+            }
+        }
+
+        // Auto-dismiss the alert after 1 second (1000 ms)
+        window.onload = function () {
+            setTimeout(function () {
+                dismissAlert();
+            }, 3000);
+        };
+    </script>
+}

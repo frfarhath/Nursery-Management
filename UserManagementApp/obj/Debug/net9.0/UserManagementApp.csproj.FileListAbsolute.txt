@@ -149,7 +149,6 @@ C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\scopedcss\bundle\UserManagementApp.styles.css
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\scopedcss\projectbundle\UserManagementApp.bundle.scp.css
-C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\ifm3g79ye8-wbfos00sgm.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\kpcjccfvcp-61n19gt1b8.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\8z03z80c97-xtxxf3hu2r.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\2pfxfeopu0-bqjiyaj88i.gz
@@ -223,3 +222,4 @@ C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\ref\UserManagementApp.dll
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\j1apysjo98-rkt05vd5so.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\n0gjqywc7t-rkt05vd5so.gz
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\ifm3g79ye8-1y8kucb8wg.gz

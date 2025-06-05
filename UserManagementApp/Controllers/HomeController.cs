@@ -21,6 +21,7 @@ namespace UserManagementApp.Controllers
         public IActionResult Index()
         {
             var users = _db.Users.ToList();
+            // No need to copy TempData to ViewBag
             return View(users);
         }
 
@@ -40,6 +41,7 @@ namespace UserManagementApp.Controllers
             _db.Users.Add(newUser);
             _db.SaveChanges();
 
+            TempData["SuccessMessage"] = $"User '{newUser.Username}' created successfully!";
             return RedirectToAction("Index");
         }
 
@@ -61,16 +63,16 @@ namespace UserManagementApp.Controllers
             var user = _db.Users.Find(updatedUser.Id);
             if (user == null) return NotFound();
 
-            // Update fields from the posted form
             user.Username = updatedUser.Username;
             user.Role = updatedUser.Role;
 
-            // Uncomment this if you allow password editing
+            // Uncomment to allow password editing
             // user.Password = updatedUser.Password;
 
             _db.Entry(user).State = EntityState.Modified;
             _db.SaveChanges();
 
+            TempData["SuccessMessage"] = $"User '{updatedUser.Username}' updated successfully!";
             return RedirectToAction("Index");
         }
 
@@ -96,6 +98,7 @@ namespace UserManagementApp.Controllers
             {
                 _db.Users.Remove(user);
                 _db.SaveChanges();
+                TempData["SuccessMessage"] = $"User '{user.Username}' deleted successfully!";
             }
             return RedirectToAction("Index");
         }

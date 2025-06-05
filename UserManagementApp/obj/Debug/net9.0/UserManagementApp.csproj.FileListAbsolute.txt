@@ -220,5 +220,6 @@ C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\UserManagementApp.pdb
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\UserManagementApp.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\ref\UserManagementApp.dll
-C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\j1apysjo98-7vs6sfzfxc.gz
-C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\n0gjqywc7t-7vs6sfzfxc.gz
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\UserManagementApp.sourcelink.json
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\j1apysjo98-tld8eo89na.gz
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\n0gjqywc7t-tld8eo89na.gz

@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using UserManagementApp.Models;  // Adjust if needed
+using UserManagementApp.Models;
 
 namespace UserManagementApp.Data
 {

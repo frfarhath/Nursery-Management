@@ -1,3 +1,4 @@
+
 # User Management App
 
 ## 📘 Description
@@ -12,7 +13,7 @@ This is a simple User Management application built with ASP.NET Core MVC. It all
 ## ✅ Prerequisites
 - [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
 - Microsoft SQL Server 2022 Developer Edition
-- Visual Studio Code
+- Visual Studio Code (or Visual Studio)
 
 ## 🚀 Setup and Installation
 

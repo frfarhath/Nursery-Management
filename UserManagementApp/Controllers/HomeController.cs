@@ -1,57 +1,51 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System.Collections.Generic;
 using System.Linq;
+using UserManagementApp.Data;
 using UserManagementApp.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace UserManagementApp.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _db;
 
-        private static List<User> _users = new List<User>
-        {
-            new User { Id = 1, Username = "Alice", Password = "pass1", Role = "Admin" },
-            new User { Id = 2, Username = "Bob", Password = "pass2", Role = "User" },
-            new User { Id = 3, Username = "Charlie", Password = "pass3", Role = "Manager" }
-        };
-
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext db)
         {
             _logger = logger;
+            _db = db;
         }
 
         public IActionResult Index()
         {
-            return View(_users);
+            var users = _db.Users.ToList();
+            return View(users);
         }
 
-        // GET: /Home/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: /Home/Create
         [HttpPost]
         public IActionResult Create(User newUser)
         {
-            newUser.Id = _users.Any() ? _users.Max(u => u.Id) + 1 : 1;
-            _users.Add(newUser);
-            return RedirectToAction("Index");
-        }
+            if (!ModelState.IsValid)
+            {
+                return View(newUser);
+            }
 
-        public IActionResult Details(int id)
-        {
-            var user = _users.FirstOrDefault(u => u.Id == id);
-            if (user == null) return NotFound();
-            return View(user);
+            _db.Users.Add(newUser);
+            _db.SaveChanges();
+
+            return RedirectToAction("Index");
         }
 
         public IActionResult Edit(int id)
         {
-            var user = _users.FirstOrDefault(u => u.Id == id);
+            var user = _db.Users.Find(id);
             if (user == null) return NotFound();
             return View(user);
         }
@@ -59,24 +53,37 @@ namespace UserManagementApp.Controllers
         [HttpPost]
         public IActionResult Edit(User updatedUser)
         {
-            var user = _users.FirstOrDefault(u => u.Id == updatedUser.Id);
+            if (!ModelState.IsValid)
+            {
+                return View(updatedUser);
+            }
+
+            var user = _db.Users.Find(updatedUser.Id);
             if (user == null) return NotFound();
 
-            // Preserve Username (readonly in UI)
+            // Update fields from the posted form
             user.Username = updatedUser.Username;
-
-            // Preserve existing password (no change here)
-            // user.Password = user.Password;
-
-            // Update only the Role
             user.Role = updatedUser.Role;
+
+            // Uncomment this if you allow password editing
+            // user.Password = updatedUser.Password;
+
+            _db.Entry(user).State = EntityState.Modified;
+            _db.SaveChanges();
 
             return RedirectToAction("Index");
         }
 
+        public IActionResult Details(int id)
+        {
+            var user = _db.Users.Find(id);
+            if (user == null) return NotFound();
+            return View(user);
+        }
+
         public IActionResult Delete(int id)
         {
-            var user = _users.FirstOrDefault(u => u.Id == id);
+            var user = _db.Users.Find(id);
             if (user == null) return NotFound();
             return View(user);
         }
@@ -84,15 +91,13 @@ namespace UserManagementApp.Controllers
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
         {
-            var user = _users.FirstOrDefault(u => u.Id == id);
-            if (user != null) _users.Remove(user);
+            var user = _db.Users.Find(id);
+            if (user != null)
+            {
+                _db.Users.Remove(user);
+                _db.SaveChanges();
+            }
             return RedirectToAction("Index");
-        }
-
-        // Add this Privacy action
-        public IActionResult Privacy()
-        {
-            return View();  // Returns Views/Home/Privacy.cshtml
         }
     }
 }

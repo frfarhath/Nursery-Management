@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Register DbContext with SQL Server
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add MVC support
@@ -17,9 +17,6 @@ app.UseStaticFiles();
 
 // Enable routing
 app.UseRouting();
-
-// Optional: Add authorization middleware if needed
-// app.UseAuthorization();
 
 // Configure endpoint routing
 app.MapControllerRoute(

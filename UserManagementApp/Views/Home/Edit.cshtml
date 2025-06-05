@@ -2,25 +2,26 @@
 
 <h2 style="color: #071952; margin-bottom: 20px;">Edit User</h2>
 
-<form asp-action="Edit" method="post" style="max-width: 500px; background-color: #EBF4F6; padding: 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+<form asp-action="Edit" method="post"
+    style="max-width: 500px; background-color: #EBF4F6; padding: 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
     <input type="hidden" asp-for="Id" />
 
     <div class="form-group mb-4">
         <label asp-for="Username" style="color: #088395; font-weight: 600;">
-            Username <i class="bi bi-lock-fill" title="This field is read-only" style="color: #888; font-size: 0.9em;"></i>
+            Username
         </label>
-        <input asp-for="Username" class="form-control" readonly 
-               style="background-color: #f8f9fa; border: 1.5px solid #ccc; border-radius: 6px; color: #071952; padding: 8px 12px;" />
+        <input asp-for="Username" class="form-control"
+            style="background-color: white; border: 1.5px solid #ccc; border-radius: 6px; color: #071952; padding: 8px 12px;" />
         <span asp-validation-for="Username" class="text-danger"></span>
     </div>
 
     <div class="form-group mb-4">
         <label asp-for="Role" style="color: #088395; font-weight: 600;">Role</label>
         <select asp-for="Role" class="form-control"
-        asp-items="@(new SelectList(new[] { "Admin", "User", "Principal", "Teacher", "Assistant Teacher" }))"
-        style="...">
-    <option value="">-- Select Role --</option>
-</select>
+            asp-items="@(new SelectList(new[] { "Admin", "User", "Principal", "Teacher", "Assistant Teacher" }))"
+            style="background-color: white; border: 1.5px solid #37B7C3; border-radius: 6px; color: #071952; padding: 8px 12px;">
+            <option value="">-- Select Role --</option>
+        </select>
         <span asp-validation-for="Role" class="text-danger"></span>
     </div>
 

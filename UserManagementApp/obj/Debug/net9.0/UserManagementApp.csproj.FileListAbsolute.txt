@@ -211,8 +211,6 @@ C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\ldjlfkuy61-muycvpuwrr.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\fiumj3qj2d-87fc7y1x7t.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\zs2g7a31gx-mlv21k5csn.gz
-C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\j1apysjo98-tld8eo89na.gz
-C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\n0gjqywc7t-tld8eo89na.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\staticwebassets.development.json

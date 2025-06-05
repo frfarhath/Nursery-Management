@@ -52,19 +52,6 @@ This is a simple User Management application built with ASP.NET Core MVC. It all
    https://localhost:5001/
 
 
-## 🗂️ Project Structure
-
-
-UserManagementApp/
-├── Controllers/
-├── Models/
-├── Views/
-├── sql/
-│   └── master.sql        <-- 📄 SQL script to create and seed Users table
-├── wwwroot/
-├── appsettings.json
-└── README.md
-
 
 ## 📝 Notes
 

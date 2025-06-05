@@ -1,0 +1,8 @@
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net8.0\UserManagementApp.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net8.0\UserManagementApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net8.0\UserManagementApp.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net8.0\UserManagementApp.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net8.0\UserManagementApp.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net8.0\UserManagementApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net8.0\UserManagementApp.RazorAssemblyInfo.cache
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net8.0\UserManagementApp.RazorAssemblyInfo.cs

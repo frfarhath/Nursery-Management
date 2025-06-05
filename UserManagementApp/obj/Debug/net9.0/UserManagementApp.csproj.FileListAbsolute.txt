@@ -145,10 +145,11 @@ C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\UserManagementApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\UserManagementApp.RazorAssemblyInfo.cache
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\UserManagementApp.RazorAssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\UserManagementApp.sourcelink.json
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\scopedcss\bundle\UserManagementApp.styles.css
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\scopedcss\projectbundle\UserManagementApp.bundle.scp.css
-C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\ifm3g79ye8-b9sayid5wm.gz
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\ifm3g79ye8-wbfos00sgm.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\kpcjccfvcp-61n19gt1b8.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\8z03z80c97-xtxxf3hu2r.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\2pfxfeopu0-bqjiyaj88i.gz
@@ -210,6 +211,8 @@ C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\ldjlfkuy61-muycvpuwrr.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\fiumj3qj2d-87fc7y1x7t.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\zs2g7a31gx-mlv21k5csn.gz
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\j1apysjo98-tld8eo89na.gz
+C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\n0gjqywc7t-tld8eo89na.gz
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\staticwebassets.development.json
@@ -220,6 +223,3 @@ C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\UserManagementApp.pdb
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\UserManagementApp.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\ref\UserManagementApp.dll
-C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\UserManagementApp.sourcelink.json
-C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\j1apysjo98-tld8eo89na.gz
-C:\Users\User\OneDrive\Desktop\dotnet project\UserManagementApp\obj\Debug\net9.0\compressed\n0gjqywc7t-tld8eo89na.gz

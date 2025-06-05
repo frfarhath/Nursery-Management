@@ -1,6 +1,7 @@
+
 # User Management App
 
-## Description
+Description
 This is a simple User Management application built with ASP.NET Core MVC. It allows managing users with roles like Admin, Principal, Teacher, Assistant Teacher, and User.
 
 ## Features
@@ -8,15 +9,40 @@ This is a simple User Management application built with ASP.NET Core MVC. It all
 - Role management with dropdown selection
 - Server-side validation for input data
 
-## Prerequisites
-- [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/7.0)
+Prerequisites
+- [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
 - Microsoft SQL Server 2022 Developer Edition
-- Visual Studio Code
+- Visual Studio Code (or Visual Studio)
 
-## Setup and Installation
+Setup and Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/frfarhath/Nursery-Management.git
+   git clone https://github.com/frfarhath/UserManagementApp.git
    cd UserManagementApp
-![image](https://github.com/user-attachments/assets/68e9761c-7203-40dd-b00a-65e1f7ef8774)
+
+
+2. Restore dependencies and build the project:
+
+   ```bash
+   dotnet restore
+   dotnet build
+
+3. Update the database connection string in `appsettings.json` as per your SQL Server instance.
+
+4. Run database migrations (if applicable):
+
+   ```bash
+   dotnet ef database update
+ 
+
+5. Run the application:
+
+   ```bash
+   dotnet run
+
+## Usage
+* Use the UI to add, edit, view, or delete users.
+* Validation messages and success notifications will guide you.
+
+
